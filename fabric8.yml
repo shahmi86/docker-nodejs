@@ -1,0 +1,11 @@
+---
+buildName: "docker-nodejs"
+links:
+  Git: "https://github.com/shahmi86/docker-nodejs.git"
+  Job: "http://jenkins.default.54.153.124.123.nip.io/job/docker-nodejs"
+  Production: "http://10.200.200.6:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.200.200.6:80/kubernetes/pods?namespace=default-staging"
+environments:
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
